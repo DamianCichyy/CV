@@ -1,0 +1,325 @@
+body {
+  background-color: #222831;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.tilelink2 {
+  text-decoration: none;
+}
+
+.down {
+  color: #000;
+  background-color: #fb6d3a;
+  width: 200px;
+  font-size: 35px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.down:hover {
+  color: #fb6d3a;
+  background-color: #000;
+  transform: scale(0.9);
+}
+
+.tilelink1 {
+  color: #000;
+  text-decoration: none;
+}
+
+.tilelink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.title {
+  width: 1000px;
+  font-family: "Macondo", cursive;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.logo {
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+
+.pcolor {
+  color: #fb6d3a;
+}
+
+#clock {
+  width: 50%;
+  text-align: right;
+  float: left;
+}
+
+.square1 {
+  float: left;
+  margin-top: 25px;
+  width: 50%;
+}
+
+.tile1 {
+  float: left;
+  background-color: #f25022;
+  text-align: center;
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tile1:hover {
+  transform: scale(0.9);
+  background-color: #e14011;
+}
+.tile2 {
+  float: left;
+  background-color: #7fba00;
+  text-align: center;
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tile2:hover {
+  transform: scale(0.9);
+  background-color: #6eaa00;
+}
+
+.tile3 {
+  float: left;
+  background-color: #00a4ef;
+  text-align: center;
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tile3:hover {
+  transform: scale(0.9);
+  background-color: #00a3de;
+}
+
+.tile4 {
+  float: left;
+  background-color: #ffb900;
+  text-align: center;
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tile4:hover {
+  transform: scale(0.9);
+  background-color: #eea800;
+}
+
+.motto {
+  float: left;
+  font-family: "Dancing Script", cursive;
+  width: 460px;
+  background-color: #155263;
+  height: 122px;
+  text-align: justify;
+  margin: 10px;
+  font-size: 33px;
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+  background-color: #d3d6db;
+  color: #141010;
+  text-align: justify;
+  font-size: 15px;
+  height: 284px;
+  width: 460px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content1 {
+  background-color: #d3d6db;
+  color: #141010;
+  text-align: justify;
+  font-size: 13px;
+  height: 284px;
+  width: 460px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+}
+
+.picture {
+  float: left;
+  margin: 10px;
+}
+
+.yt {
+  transition: all 0.5s ease-in-out;
+}
+
+.yt:hover {
+  transform: scale(0.9) rotate(5deg);
+}
+
+.overlay1 {
+  position: relative;
+  width: 105px;
+  background-color: #c4302b;
+  height: 142px;
+}
+
+.overlay1 .link {
+  position: absolute;
+  display: block;
+  width: 105px;
+  height: 45px;
+  font-size: 20px;
+  font-family: "Macondo", cursive;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay1:hover .link {
+  opacity: 1;
+}
+
+.fb {
+  transition: all 0.5s ease-in-out;
+}
+
+.fb:hover {
+  transform: scale(0.9) rotate(5deg);
+}
+
+.overlay2 {
+  position: relative;
+  width: 105px;
+  background-color: #3b5998;
+  height: 142px;
+}
+
+.overlay2 .link {
+  position: absolute;
+  width: 105px;
+  height: 45px;
+  text-align: center;
+  font-family: "Macondo", cursive;
+  font-size: 20px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay2:hover .link {
+  opacity: 1;
+}
+
+.git {
+  transition: all 0.5s ease-in-out;
+}
+
+.git:hover {
+  transform: scale(0.9) rotate(5deg);
+}
+
+.overlay3 {
+  position: relative;
+  width: 105px;
+  background-color: #171515;
+  height: 142px;
+}
+
+.overlay3 .link {
+  position: absolute;
+  width: 105px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+  bottom: 0px;
+  left: 0px;
+  font-family: "Macondo", cursive;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay3:hover .link {
+  opacity: 1;
+}
+
+.linkedin {
+  transition: transform 0.5s ease-in-out;
+}
+
+.linkedin:hover {
+  transform: scale(0.9) rotate(5deg);
+}
+
+.overlay4 {
+  position: relative;
+  width: 105px;
+  background-color: #0e76a8;
+  height: 142px;
+}
+
+.overlay4 .link {
+  position: absolute;
+  width: 105px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  bottom: 0px;
+  left: 0px;
+  font-family: "Macondo", cursive;
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay4:hover .link {
+  opacity: 1;
+}
+
+.footer {
+  font-family: "Macondo", cursive;
+  font-size: 20px;
+  text-align: center;
+}
